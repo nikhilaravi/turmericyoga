@@ -626,6 +626,10 @@ header {
 	About
 \*------------------------------------*/
 
+div.about{
+    height: 210px;
+}
+
 .about {
     position: relative;
     text-align: center;
