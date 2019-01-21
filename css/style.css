@@ -790,6 +790,10 @@ header {
 	Services
 \*------------------------------------*/
 
+#features img {
+  margin-top: 10%;
+}
+
 .service {
     position: relative;
     padding: 40px 20px 40px 70px;
@@ -1537,12 +1541,17 @@ header {
       position: relative;
   }
 
+
 }
 
 @media only screen and (max-width: 480px) {
   #portfolio [class*='col-xs'] {
 		  width:100%;
 	}
+
+  #about [class*='col-xs'] {
+      width:100%;
+  }
 
   #numbers [class*='col-xs'] {
 		  width:100%;
