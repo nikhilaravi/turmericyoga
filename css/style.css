@@ -666,6 +666,10 @@ header {
     color: #fff;
 }
 
+.about-image {
+  height: 500px;
+}
+
 
 /*------------------------------------*\
 	Portfolio
@@ -969,7 +973,7 @@ header {
 
 .testimonial-meta {
     position: relative;
-    padding-left: 90px;
+    /* padding-left: 90px; */
     height: 70px;
     margin-bottom: 20px;
     padding-top: 10px;
@@ -1524,6 +1528,15 @@ header {
       float: none;
       text-align: center;
   }
+  .blog {
+      margin: 15px 10%;
+  }
+  .navbar-brand .logo {
+      max-height: 30px;
+      left: 40%;
+      position: relative;
+  }
+
 }
 
 @media only screen and (max-width: 480px) {
