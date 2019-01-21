@@ -1549,10 +1549,6 @@ header {
 		  width:100%;
 	}
 
-  #about [class*='col-xs'] {
-      width:100%;
-  }
-
   #numbers [class*='col-xs'] {
 		  width:100%;
 	}
