@@ -626,10 +626,6 @@ header {
 	About
 \*------------------------------------*/
 
-div.about{
-    height: 210px;
-}
-
 .about {
     position: relative;
     text-align: center;
@@ -793,6 +789,10 @@ div.about{
 /*------------------------------------*\
 	Services
 \*------------------------------------*/
+
+#features img {
+  margin-top: 10%;
+}
 
 .service {
     position: relative;
@@ -1532,6 +1532,21 @@ div.about{
       float: none;
       text-align: center;
   }
+  .blog {
+      margin: 15px 10%;
+  }
+
+  .blog .row h2 {
+    font-size: 40px;
+  }
+  .navbar-brand .logo {
+      max-height: 30px;
+      left: 8%;
+      position: relative;
+  }
+
+
+
 }
 
 @media only screen and (max-width: 480px) {
