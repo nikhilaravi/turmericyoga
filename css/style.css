@@ -580,7 +580,7 @@ header {
 }
 
 #home {
-    height: 100vh;
+    height: 100%;
 }
 
 #home .home-wrapper {
