@@ -159,7 +159,13 @@ ul, ol {
     z-index: -1;
     background-position: center;
     background-size: cover;
-    background-attachment: initial;
+    background-attachment: fixed;
+}
+
+@media only screen and (max-width: 767px) {
+    .bg-img {
+        background-attachment: scroll;
+    }
 }
 
 .bg-img .overlay {
