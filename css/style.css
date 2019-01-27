@@ -162,6 +162,12 @@ ul, ol {
     background-attachment: fixed;
 }
 
+@media only screen and (max-width: 767px) {
+    .bg-img {
+        background-attachment: scroll;
+    }
+}
+
 .bg-img .overlay {
     position: absolute;
     left: 0;
