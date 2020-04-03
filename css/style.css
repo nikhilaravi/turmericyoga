@@ -1514,6 +1514,39 @@ header {
   font-size: 12px;
 }
 
+.momoyoga-schedule .momoyoga-section:nth-child(n+5) {
+    display: none;
+}
+
+.book-now {
+  margin: 27px;
+  font-size: 25px;
+}
+
+.header-button {
+  font-size: 20px;
+}
+
+.home-content h3 {
+  font-size: 30px;
+}
+
+#features .chitra-face {
+  /* margin-top: 20%; */
+}
+
+.momoyoga-lesson-title {
+  width: 50%;
+}
+
+.momoyoga-lesson-title a {
+  word-wrap: break-word;
+}
+
+.offline-class-title {
+  margin-top: 45px;
+}
+
 /*------------------------------------*\
 	Responsive
 \*------------------------------------*/
@@ -1557,8 +1590,6 @@ header {
       left: 8%;
       position: relative;
   }
-
-
 
 }
 

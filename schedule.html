@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<title>Group Classes</title>
+	<title>Schedule</title>
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
@@ -24,6 +24,8 @@
 
 	<!-- Font Awesome Icon -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://www.momoyoga.com/schedule-plugin/v2/css/schedule-frontend.css" crossorigin="anonymous">
 
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
@@ -65,6 +67,7 @@
 				<!--  Main navigation  -->
 				<ul class="main-nav nav navbar-nav navbar-right">
 					<li><a href="index.html#home">Home</a></li>
+					<li><a href="./schedule.html">Schedule</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="index.html#contact">Contact</a></li>
 					<li><a href="https://medium.com/@turmericyoga">Blog</a></li>
@@ -100,13 +103,59 @@
 				<div class="row">
 
 					<!-- why choose us content -->
+					<div class="col-md-10">
+						<div class="section-header">
+							<h2 class="title">Online Classes (all abilities)</h2>
+							<p style="margin:0px">Practise yoga in the comfort and safety of your own home!
+								Join me and other yogis online for an hour of invigorating and relaxing yoga,
+								suitable for all abilities and skill levels. We’ll start the classes with a
+								thorough warm up, flow through a series of standing, sitting and lying down
+								postures and finish up with breathing exercises, chanting and of course savasana!
+								<br/>
+								<span style="color:green">All times listed below are in British Standard Time.</span>
+							</p>
+						</div>
+						<h3>Upcoming Classes:</h3>
+						<div class="momoyoga-schedule" data-momo-schedule="https://www.momoyoga.com/turmericyoga/"></div>
+
+						<!-- <a href="about.html">Read more</a> -->
+					</div>
+
+
+					<!-- /why choose us content -->
+
+					<!-- About slider -->
+					<div class="col-md-2">
+						<div id="about-slider" class="owl-carousel owl-theme">
+							<!-- <img class="img-responsive" src="./photos/eagle.jpg" alt=""> -->
+							<!-- <img class="img-responsive" src="./img/about2.jpg" alt="">
+							<img class="img-responsive" src="./img/about1.jpg" alt="">
+							<img class="img-responsive" src="./img/about2.jpg" alt=""> -->
+						</div>
+					</div>
+					<!-- /About slider -->
+
+				</div>
+				<!-- /Row -->
+
+			</div>
+			<!-- /Container -->
+
+			<!-- Container -->
+			<div class="container">
+
+				<!-- Row -->
+				<div class="row">
+
+					<!-- why choose us content -->
 					<div class="col-md-6">
 						<div class="section-header">
-							<h2 class="title">Group Classes</h2>
+							<h2 class="title offline-class-title">Offline Classes</h2>
 						</div>
 						<h3>Chair Yoga</h3>
+						<p style="font-weight:700; color:red">COVID update: All in-person classes are cancelled until further notice.</p>
 						<p style="font-weight:700; color:black">Every Friday 2:30-3:30pm</p>
-						<p style="font-weight:700; color:black">Walk ins welcome, £3 per person. </p>
+						<p style="font-weight:700; color:black">Walk ins welcome</p>
 						<div style="margin:0px">
 							<p style="margin:0px">Milmans Resource Center</p>
 							<p style="margin:0px">Grove Avenue, Pinner</p>
@@ -189,7 +238,7 @@
 
 					<!-- footer copyright -->
 					<div class="footer-copyright">
-						<div class="footer-sub-title">Website designed with ❤️ by Nikhila Ravi</div>
+						<div class="footer-sub-title">Designed with ❤️</div>
 						<p>Template designed by <a href="https://colorlib.com" target="_blank">Colorlib</a> Copyright © 2017. All Rights Reserved.</p>
 						<div class="footer-sub-title text-small">Favicon made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 					</div>
@@ -227,6 +276,9 @@
 	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://www.momoyoga.com/schedule-plugin/v2/js/schedule.js" crossorigin="anonymous"></script>
 
 </body>
 
