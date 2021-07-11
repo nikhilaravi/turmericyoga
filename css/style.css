@@ -1117,6 +1117,10 @@ header {
 	Blog
 \*------------------------------------*/
 
+#blog {
+  height: 100vh;
+}
+
 .blog {
     background-color: #FFF;
     margin: 15px 0px;
